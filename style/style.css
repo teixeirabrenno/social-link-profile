@@ -43,20 +43,12 @@ img{
 h1{
     color: var(--White);
     font-size: 23px;
-     
 }
 
 #location{
     color: var(--Green);
     margin-bottom: 20px;
 }
-
-/* button{
-    color: var(--White);
-    font-size: 14px;
-    margin: 5px;
-    border: none;
-} */
 
 p{
     color: var(--White);
