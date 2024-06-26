@@ -42,7 +42,8 @@ img{
 
 h1{
     color: var(--White);
-    font-size: 23px;  
+    font-size: 23px;
+     
 }
 
 #location{
@@ -50,9 +51,15 @@ h1{
     margin-bottom: 20px;
 }
 
-p{
+/* button{
     color: var(--White);
     font-size: 14px;
+    margin: 5px;
+    border: none;
+} */
+
+p{
+    color: var(--White);
     margin: 5px;
 }
 
@@ -61,8 +68,11 @@ p{
     color: rgb(219, 219, 219);
 }
 
-p.nav{
+button.nav{
     background-color: rgba(128, 128, 128, 0.25);
+    color: var(--White);
+    font-size: 14px;
+    border: none;
     width: 250px;
     text-align: center;
     border-radius: 5px;
@@ -70,11 +80,12 @@ p.nav{
     margin: 6px;
 }
 
-p.nav:hover{
+button.nav:hover{
     color: var(--Off-Black);
     background-color: var(--Green);
     font-weight: bold;
     cursor: pointer;
+    caret-color: black;
 }
 
 .attribution { 
@@ -93,7 +104,7 @@ p.nav:hover{
         width: 330px;
     }
 
-    p.nav{
+    button.nav{
         width: 230px;
     }
 }
